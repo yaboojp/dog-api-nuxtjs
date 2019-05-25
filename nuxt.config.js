@@ -39,6 +39,6 @@ module.exports = {
     '@nuxtjs/bulma',
   ],
   router: {
-    base: '/dog-api/'
+    base: '/dog-api-nuxtjs/'
   }
 }
