@@ -11,7 +11,6 @@ https://luftgarden.work/tut-nuxt-dog-part1/
 ➜ npm install axios --save
 ➜ npm install
 ➜ npm run dev
-➜ npm run generate
 ```
 
 ## Add & Mod Files
@@ -49,4 +48,18 @@ https://luftgarden.work/tut-nuxt-dog-part1/
 └── store
     ├── README.md
     └── index.js # <- 追加
+```
+
+## Deploy
+Run and upload ./dist
+```
+➜ npm run generate
+```
+
+Add following if using subdirectory
+```
+//nuxt.config.js
+router: {
+    base: '/dog-api/'
+}
 ```
